@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_13.ip_user_files/bd/design_3/ip/design_3_blk_mem_gen_0_1/sim/design_3_blk_mem_gen_0_1.v" \
+"../../../../project_13.ip_user_files/bd/design_3/sim/design_3.v" \
+"../../../../project_13.gen/sources_1/bd/design_3/hdl/design_3_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
