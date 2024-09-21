@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+blocking start swap - a : abcd and b :1234
+non blocking start swap - a : abcd and b :1234
+blocking end swap - a : 1234 and b :abcd
+non blocking end swap : 1234 and b :abcd
