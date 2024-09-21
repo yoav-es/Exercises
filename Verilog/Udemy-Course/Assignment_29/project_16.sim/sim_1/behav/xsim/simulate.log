@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+in=1, sel=00, out0=1, out1=0, out2=0, out3=0
+in=0, sel=00, out0=0, out1=0, out2=0, out3=0
+in=1, sel=01, out0=0, out1=1, out2=0, out3=0
+in=0, sel=01, out0=0, out1=0, out2=0, out3=0
+in=1, sel=10, out0=0, out1=0, out2=1, out3=0
+in=0, sel=10, out0=0, out1=0, out2=0, out3=0
+in=1, sel=11, out0=0, out1=0, out2=0, out3=1
+in=0, sel=11, out0=0, out1=0, out2=0, out3=0
+$finish called at time : 80 ns : File "E:/XLINIX/viv_projects/project_16/project_16.srcs/sim_1/new/tb.v" Line 28
