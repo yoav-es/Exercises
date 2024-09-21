@@ -1,0 +1,19 @@
+module top;
+
+  // Declare reg variables
+  reg [3:0] a, b;
+
+  // Declare wire variable
+  reg [3:0] res;
+
+  // Initialize reg variables
+  initial begin
+    a = 4'h7;  // Initialize a with decimal value 10 (binary 1010)
+    b = 4'hF;  // Initialize b with decimal value 12 (binary 1100)
+  end
+
+  // Perform bitwise XOR operation and store in wire
+  always@(a, b) begin
+    res = a ^ b;
+  end
+endmodule

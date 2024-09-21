@@ -1,0 +1,8 @@
+Time resolution is 1 ps
+Error: Incorrect output for D=00000010, Q=011
+Error: Incorrect output for D=00000010, Q=101
+Error: Incorrect output for D=00000010, Q=110
+D = 00000001, Q = 111
+Error: Incorrect output for D=00000010, Q=111
+D = 00000000, Q = 000
+$finish called at time : 90 ns : File "E:/XLINIX/viv_projects/project_12/project_12.srcs/sim_1/new/tb.v" Line 62

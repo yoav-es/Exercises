@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+Time: 10000, D0=0, D1=0, D2=0, D3=0, sel0=0, sel1=1, Out=1, Out_n=0
+Time: 20000, D0=1, D1=0, D2=0, D3=0, sel0=1, sel1=0, Out=1, Out_n=0
+Time: 30000, D0=1, D1=0, D2=0, D3=0, sel0=1, sel1=1, Out=1, Out_n=0
+Time: 40000, D0=1, D1=1, D2=1, D3=0, sel0=1, sel1=0, Out=1, Out_n=0
+Time: 50000, D0=1, D1=1, D2=1, D3=1, sel0=0, sel1=0, Out=0, Out_n=1
+$finish called at time : 60 ns : File "E:/XLINIX/viv_projects/project_10/assigment_10.srcs/sim_1/new/tb.v" Line 43
