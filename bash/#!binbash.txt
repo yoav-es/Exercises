@@ -1,0 +1,71 @@
+#!/bin/bash
+
+
+sudo apt update && sudo apt upgrade 
+sudo apt install wtype
+sudo raspi-config
+sudo echo "chromium = chromium-browser "https://realtime.nationalrail.co.uk/ldbcis/departures.aspx?u=039B1CD1-14D4-4CB9-83B1-A84CC3AEDF83&crs=CBG&H=1440" --kiosk --noerrdialogs --disable-infobars --no-first-run --ozone-platform=wayland --enable-features=OverlayScrollbar --start-maximized
+switchtab = bash ~/switchtab.sh
+screensaver = false
+dpms = false" >> .config/wayfire.ini
+touch ~/switchtab.sh
+echo "#!/bin/bash
+
+# Find Chromium browser process ID
+chromium_pid=$(pgrep chromium | head -1)
+
+# Check if Chromium is running
+while
+[
+[ -z $chromium_pid ]]; do
+  echo "Chromium browser is not running yet."
+  sleep 5
+  chromium_pid=$(pgrep chromium | head -1)
+done
+
+echo "Chromium browser process ID: $chromium_pid"
+
+export XDG_RUNTIME_DIR=/run/user/1000
+
+# Loop to send keyboard events
+while true; do
+  # Send Ctrl+Tab using `wtype` command
+  wtype -M ctrl -P Tab
+
+  # Send Ctrl+Tab using `wtype` command
+  wtype -m ctrl -p Tab
+
+  sleep 10
+done" > ~/switchtab.sh
+echo "communication control"
+#!/bin/bash
+
+echo "Please choose an option:"
+options=("Disable USB" "Disable Bluetooth" "Disable Ethernet" "Quit")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "Option 1")
+            sudo echo "echo '1-1' | sudo tee /sys/bus/usb/drivers/usb/unbind
+            ;;
+        "Option 2")
+            echo "sudo ifconfig eth0 down" >> /etc/rc.local"
+            ;;
+        "Option 3")
+            rfkill block bluetooth
+            ;;
+        "Quit")
+            break
+            ;;
+        *) echo "invalid option $REPLY";;
+    esac
+done
+
+
+
+	 
+
+
+
+
+
