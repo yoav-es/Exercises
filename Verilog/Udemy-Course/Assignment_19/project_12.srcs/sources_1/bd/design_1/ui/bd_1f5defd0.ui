@@ -1,0 +1,47 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.5",
+   "Default View_TopLeft":"-811,-588",
+   "ExpandedHierarchyInLayout":"/hier_0",
+   "commentid":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_y_0 -pg 1 -lvl 2 -x 470 -y -320 -defaultsOSRD
+preplace port port-id_y_1 -pg 1 -lvl 2 -x 470 -y -270 -defaultsOSRD
+preplace port port-id_y_2 -pg 1 -lvl 2 -x 470 -y -210 -defaultsOSRD
+preplace port port-id_y_3 -pg 1 -lvl 2 -x 470 -y -160 -defaultsOSRD
+preplace port port-id_D0 -pg 1 -lvl 0 -x -110 -y -400 -defaultsOSRD
+preplace port port-id_D1 -pg 1 -lvl 0 -x -110 -y -330 -defaultsOSRD
+preplace port port-id_D2 -pg 1 -lvl 0 -x -110 -y -220 -defaultsOSRD
+preplace port port-id_D3 -pg 1 -lvl 0 -x -110 -y -150 -defaultsOSRD
+preplace portBus S -pg 1 -lvl 0 -x -110 -y -70 -defaultsOSRD
+preplace inst hier_0 -pg 1 -lvl 1 -x 150 -y -278 -defaultsOSRD
+preplace inst hier_0|mux41_0 -pg 1 -lvl 1 -x 260 -y -248 -defaultsOSRD
+preplace inst hier_0|mux41_1 -pg 1 -lvl 1 -x 260 -y -68 -defaultsOSRD
+preplace inst hier_0|mux41_2 -pg 1 -lvl 1 -x 260 -y 112 -defaultsOSRD
+preplace inst hier_0|mux41_3 -pg 1 -lvl 1 -x 260 -y 292 -defaultsOSRD
+preplace netloc mux41_0_y 1 1 1 420 -320n
+preplace netloc mux41_1_y 1 1 1 430 -270n
+preplace netloc mux41_2_y 1 1 1 440 -210n
+preplace netloc mux41_3_y 1 1 1 450 -160n
+preplace netloc S_1 1 0 1 -60 -208n
+preplace netloc D3_1 1 0 1 -70 -268n
+preplace netloc D0_1 1 0 1 -70 -400n
+preplace netloc D1_1 1 0 1 -80 -330n
+preplace netloc D2_1 1 0 1 -90 -248n
+preplace netloc hier_0|D0_1 1 0 1 170 -288n
+preplace netloc hier_0|D3_1 1 0 1 180 -268n
+preplace netloc hier_0|D2_1 1 0 1 160 -248n
+preplace netloc hier_0|D1_1 1 0 1 150 -228n
+preplace netloc hier_0|S_1 1 0 1 140 -208n
+preplace netloc hier_0|mux41_0_y 1 1 1 N -248
+preplace netloc hier_0|mux41_1_y 1 1 1 N -68
+preplace netloc hier_0|mux41_2_y 1 1 1 N 112
+preplace netloc hier_0|mux41_3_y 1 1 1 N 292
+levelinfo -pg 1 -110 150 470
+levelinfo -hier hier_0 * 260 *
+pagesize -pg 1 -db -bbox -sgen -200 -860 540 420
+pagesize -hier hier_0 -db -bbox -sgen 110 -348 370 392
+"
+}
+0

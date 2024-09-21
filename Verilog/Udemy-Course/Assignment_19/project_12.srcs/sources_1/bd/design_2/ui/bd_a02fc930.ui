@@ -1,0 +1,53 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.5",
+   "Default View_TopLeft":"-715,-267",
+   "ExpandedHierarchyInLayout":"/hier_0/MUX8_1",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace port port-id_I7 -pg 1 -lvl 0 -x -50 -y 10 -defaultsOSRD
+preplace port port-id_I6 -pg 1 -lvl 0 -x -50 -y 40 -defaultsOSRD
+preplace port port-id_I5 -pg 1 -lvl 0 -x -50 -y 70 -defaultsOSRD
+preplace port port-id_I4 -pg 1 -lvl 0 -x -50 -y -20 -defaultsOSRD
+preplace port port-id_I3 -pg 1 -lvl 0 -x -50 -y 220 -defaultsOSRD
+preplace port port-id_I2 -pg 1 -lvl 0 -x -50 -y 250 -defaultsOSRD
+preplace port port-id_I1 -pg 1 -lvl 0 -x -50 -y 280 -defaultsOSRD
+preplace port port-id_I0 -pg 1 -lvl 0 -x -50 -y 310 -defaultsOSRD
+preplace port port-id_S1 -pg 1 -lvl 0 -x -50 -y 350 -defaultsOSRD
+preplace port port-id_Y -pg 1 -lvl 2 -x 520 -y 170 -defaultsOSRD
+preplace portBus S0 -pg 1 -lvl 0 -x -50 -y 390 -defaultsOSRD
+preplace inst MUX8_1 -pg 1 -lvl 1 -x 130 -y 62 -defaultsOSRD
+preplace inst MUX8_1|mux41_0 -pg 1 -lvl 1 -x 210 -y 42 -defaultsOSRD
+preplace inst MUX8_1|mux41_1 -pg 1 -lvl 1 -x 210 -y 242 -defaultsOSRD
+preplace inst MUX8_1|mux21_0 -pg 1 -lvl 2 -x 360 -y 122 -defaultsOSRD
+preplace netloc I7_1 1 0 1 -30J 2n
+preplace netloc I6_1 1 0 1 -30J 22n
+preplace netloc I5_1 1 0 1 -10J 42n
+preplace netloc I4_1 1 0 1 0J -20n
+preplace netloc S0_1 1 0 1 -10 82n
+preplace netloc I3_1 1 0 1 -30J 202n
+preplace netloc I2_1 1 0 1 -20J 222n
+preplace netloc I1_1 1 0 1 0J 242n
+preplace netloc I0_1 1 0 1 10J 262n
+preplace netloc S1_1 1 0 1 20J 282n
+preplace netloc mux21_0_y 1 1 1 500 122n
+preplace netloc MUX8_1|mux41_0_y 1 1 1 290 42n
+preplace netloc MUX8_1|mux41_1_y 1 1 1 290 122n
+preplace netloc MUX8_1|I7_1 1 0 1 N 2
+preplace netloc MUX8_1|I6_1 1 0 1 N 22
+preplace netloc MUX8_1|I5_1 1 0 1 N 42
+preplace netloc MUX8_1|I4_1 1 0 1 N 62
+preplace netloc MUX8_1|S0_1 1 0 1 130 82n
+preplace netloc MUX8_1|I3_1 1 0 1 N 202
+preplace netloc MUX8_1|I2_1 1 0 1 N 222
+preplace netloc MUX8_1|I1_1 1 0 1 N 242
+preplace netloc MUX8_1|I0_1 1 0 1 N 262
+preplace netloc MUX8_1|S1_1 1 0 2 120J 142 N
+preplace netloc MUX8_1|mux21_0_y 1 2 1 N 122
+levelinfo -pg 1 -50 130 520
+levelinfo -hier MUX8_1 * 210 360 *
+pagesize -pg 1 -db -bbox -sgen -150 -90 580 410
+pagesize -hier MUX8_1 -db -bbox -sgen 90 -58 460 342
+"
+}
+

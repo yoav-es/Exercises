@@ -1,0 +1,385 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x78DFDFEA78DFDFEA",
+      "device": "xc7z010clg400-1",
+      "gen_directory": "../../../../project_12.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "hier_0": {
+        "mux41_0": "",
+        "mux41_1": "",
+        "mux41_2": "",
+        "mux41_3": ""
+      }
+    },
+    "ports": {
+      "y_0": {
+        "direction": "O"
+      },
+      "y_1": {
+        "direction": "O"
+      },
+      "y_2": {
+        "direction": "O"
+      },
+      "y_3": {
+        "direction": "O"
+      },
+      "D0": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "D1": {
+        "direction": "I"
+      },
+      "D2": {
+        "direction": "I"
+      },
+      "D3": {
+        "direction": "I"
+      },
+      "S": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      }
+    },
+    "components": {
+      "hier_0": {
+        "ports": {
+          "D0": {
+            "type": "data",
+            "direction": "I"
+          },
+          "D3": {
+            "direction": "I"
+          },
+          "D2": {
+            "direction": "I"
+          },
+          "D1": {
+            "direction": "I"
+          },
+          "S": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "y_0": {
+            "direction": "O"
+          },
+          "y_1": {
+            "direction": "O"
+          },
+          "y_2": {
+            "direction": "O"
+          },
+          "y_3": {
+            "direction": "O"
+          }
+        },
+        "components": {
+          "mux41_0": {
+            "vlnv": "xilinx.com:module_ref:mux41:1.0",
+            "ip_revision": "1720787204",
+            "xci_name": "design_1_mux41_0_4",
+            "xci_path": "ip\\design_1_mux41_0_4\\design_1_mux41_0_4.xci",
+            "inst_hier_path": "hier_0/mux41_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "mux41",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I",
+                "parameters": {
+                  "LAYERED_METADATA": {
+                    "value": "undef",
+                    "value_src": "default_prop"
+                  }
+                }
+              },
+              "b": {
+                "direction": "I"
+              },
+              "c": {
+                "direction": "I"
+              },
+              "d": {
+                "direction": "I"
+              },
+              "s": {
+                "direction": "I",
+                "left": "1",
+                "right": "0"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          },
+          "mux41_1": {
+            "vlnv": "xilinx.com:module_ref:mux41:1.0",
+            "ip_revision": "1720787204",
+            "xci_name": "design_1_mux41_0_8",
+            "xci_path": "ip\\design_1_mux41_0_8\\design_1_mux41_0_8.xci",
+            "inst_hier_path": "hier_0/mux41_1",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "mux41",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I",
+                "parameters": {
+                  "LAYERED_METADATA": {
+                    "value": "undef",
+                    "value_src": "default_prop"
+                  }
+                }
+              },
+              "c": {
+                "direction": "I"
+              },
+              "d": {
+                "direction": "I"
+              },
+              "s": {
+                "direction": "I",
+                "left": "1",
+                "right": "0"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          },
+          "mux41_2": {
+            "vlnv": "xilinx.com:module_ref:mux41:1.0",
+            "ip_revision": "1720787204",
+            "xci_name": "design_1_mux41_1_0",
+            "xci_path": "ip\\design_1_mux41_1_0\\design_1_mux41_1_0.xci",
+            "inst_hier_path": "hier_0/mux41_2",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "mux41",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "c": {
+                "direction": "I",
+                "parameters": {
+                  "LAYERED_METADATA": {
+                    "value": "undef",
+                    "value_src": "default_prop"
+                  }
+                }
+              },
+              "d": {
+                "direction": "I"
+              },
+              "s": {
+                "direction": "I",
+                "left": "1",
+                "right": "0"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          },
+          "mux41_3": {
+            "vlnv": "xilinx.com:module_ref:mux41:1.0",
+            "ip_revision": "1720787204",
+            "xci_name": "design_1_mux41_1_1",
+            "xci_path": "ip\\design_1_mux41_1_1\\design_1_mux41_1_1.xci",
+            "inst_hier_path": "hier_0/mux41_3",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "mux41",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "c": {
+                "direction": "I"
+              },
+              "d": {
+                "direction": "I",
+                "parameters": {
+                  "LAYERED_METADATA": {
+                    "value": "undef",
+                    "value_src": "default_prop"
+                  }
+                }
+              },
+              "s": {
+                "direction": "I",
+                "left": "1",
+                "right": "0"
+              },
+              "y": {
+                "direction": "O"
+              }
+            }
+          }
+        },
+        "nets": {
+          "D0_1": {
+            "ports": [
+              "D0",
+              "mux41_3/d",
+              "mux41_1/b",
+              "mux41_2/c",
+              "mux41_0/a"
+            ]
+          },
+          "D1_1": {
+            "ports": [
+              "D1",
+              "mux41_3/c",
+              "mux41_2/b",
+              "mux41_1/a",
+              "mux41_0/d"
+            ]
+          },
+          "D2_1": {
+            "ports": [
+              "D2",
+              "mux41_3/b",
+              "mux41_2/a",
+              "mux41_1/d",
+              "mux41_0/c"
+            ]
+          },
+          "D3_1": {
+            "ports": [
+              "D3",
+              "mux41_3/a",
+              "mux41_1/c",
+              "mux41_2/d",
+              "mux41_0/b"
+            ]
+          },
+          "S_1": {
+            "ports": [
+              "S",
+              "mux41_3/s",
+              "mux41_2/s",
+              "mux41_1/s",
+              "mux41_0/s"
+            ]
+          },
+          "mux41_0_y": {
+            "ports": [
+              "mux41_0/y",
+              "y_0"
+            ]
+          },
+          "mux41_1_y": {
+            "ports": [
+              "mux41_1/y",
+              "y_1"
+            ]
+          },
+          "mux41_2_y": {
+            "ports": [
+              "mux41_2/y",
+              "y_2"
+            ]
+          },
+          "mux41_3_y": {
+            "ports": [
+              "mux41_3/y",
+              "y_3"
+            ]
+          }
+        }
+      }
+    },
+    "nets": {
+      "D0_1": {
+        "ports": [
+          "D0",
+          "hier_0/D0"
+        ]
+      },
+      "D1_1": {
+        "ports": [
+          "D1",
+          "hier_0/D1"
+        ]
+      },
+      "D2_1": {
+        "ports": [
+          "D2",
+          "hier_0/D2"
+        ]
+      },
+      "D3_1": {
+        "ports": [
+          "D3",
+          "hier_0/D3"
+        ]
+      },
+      "S_1": {
+        "ports": [
+          "S",
+          "hier_0/S"
+        ]
+      },
+      "mux41_0_y": {
+        "ports": [
+          "hier_0/y_0",
+          "y_0"
+        ]
+      },
+      "mux41_1_y": {
+        "ports": [
+          "hier_0/y_1",
+          "y_1"
+        ]
+      },
+      "mux41_2_y": {
+        "ports": [
+          "hier_0/y_2",
+          "y_2"
+        ]
+      },
+      "mux41_3_y": {
+        "ports": [
+          "hier_0/y_3",
+          "y_3"
+        ]
+      }
+    }
+  }
+}

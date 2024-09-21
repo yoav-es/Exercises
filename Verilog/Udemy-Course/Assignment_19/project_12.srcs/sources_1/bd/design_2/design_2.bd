@@ -1,0 +1,454 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xEEFF59CFEEFF59CF",
+      "device": "xc7z010clg400-1",
+      "gen_directory": "../../../../project_12.gen/sources_1/bd/design_2",
+      "name": "design_2",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2.2"
+    },
+    "design_tree": {
+      "hier_0": {
+        "MUX8_1": {
+          "mux41_0": "",
+          "mux41_1": "",
+          "mux21_0": ""
+        }
+      }
+    },
+    "ports": {
+      "I0": {
+        "direction": "I"
+      },
+      "I1": {
+        "direction": "I"
+      },
+      "I2": {
+        "direction": "I"
+      },
+      "I3": {
+        "direction": "I"
+      },
+      "I4": {
+        "direction": "I"
+      },
+      "I5": {
+        "direction": "I"
+      },
+      "I6": {
+        "direction": "I"
+      },
+      "I7": {
+        "direction": "I"
+      },
+      "S0": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "S1": {
+        "direction": "I"
+      },
+      "Y": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "hier_0": {
+        "ports": {
+          "I7": {
+            "direction": "I"
+          },
+          "I6": {
+            "direction": "I"
+          },
+          "I5": {
+            "direction": "I"
+          },
+          "I4": {
+            "direction": "I"
+          },
+          "S0": {
+            "direction": "I",
+            "left": "1",
+            "right": "0"
+          },
+          "I3": {
+            "direction": "I"
+          },
+          "I2": {
+            "direction": "I"
+          },
+          "I1": {
+            "direction": "I"
+          },
+          "I0": {
+            "direction": "I"
+          },
+          "S1": {
+            "direction": "I"
+          },
+          "Y": {
+            "direction": "O"
+          }
+        },
+        "components": {
+          "MUX8_1": {
+            "ports": {
+              "I7": {
+                "direction": "I"
+              },
+              "I6": {
+                "direction": "I"
+              },
+              "I5": {
+                "direction": "I"
+              },
+              "I4": {
+                "direction": "I"
+              },
+              "S0": {
+                "direction": "I",
+                "left": "1",
+                "right": "0"
+              },
+              "I3": {
+                "direction": "I"
+              },
+              "I2": {
+                "direction": "I"
+              },
+              "I1": {
+                "direction": "I"
+              },
+              "I0": {
+                "direction": "I"
+              },
+              "S1": {
+                "direction": "I"
+              },
+              "Y": {
+                "direction": "O"
+              }
+            },
+            "components": {
+              "mux41_0": {
+                "vlnv": "xilinx.com:module_ref:mux41:1.0",
+                "ip_revision": "1720787204",
+                "xci_name": "design_2_mux41_0_0",
+                "xci_path": "ip\\design_2_mux41_0_0\\design_2_mux41_0_0.xci",
+                "inst_hier_path": "hier_0/MUX8_1/mux41_0",
+                "reference_info": {
+                  "ref_type": "hdl",
+                  "ref_name": "mux41",
+                  "boundary_crc": "0x0"
+                },
+                "ports": {
+                  "a": {
+                    "direction": "I"
+                  },
+                  "b": {
+                    "direction": "I"
+                  },
+                  "c": {
+                    "direction": "I"
+                  },
+                  "d": {
+                    "direction": "I"
+                  },
+                  "s": {
+                    "direction": "I",
+                    "left": "1",
+                    "right": "0"
+                  },
+                  "y": {
+                    "direction": "O"
+                  }
+                }
+              },
+              "mux41_1": {
+                "vlnv": "xilinx.com:module_ref:mux41:1.0",
+                "ip_revision": "1720787204",
+                "xci_name": "design_2_mux41_0_1",
+                "xci_path": "ip\\design_2_mux41_0_1\\design_2_mux41_0_1.xci",
+                "inst_hier_path": "hier_0/MUX8_1/mux41_1",
+                "reference_info": {
+                  "ref_type": "hdl",
+                  "ref_name": "mux41",
+                  "boundary_crc": "0x0"
+                },
+                "ports": {
+                  "a": {
+                    "direction": "I"
+                  },
+                  "b": {
+                    "direction": "I"
+                  },
+                  "c": {
+                    "direction": "I"
+                  },
+                  "d": {
+                    "direction": "I"
+                  },
+                  "s": {
+                    "direction": "I",
+                    "left": "1",
+                    "right": "0"
+                  },
+                  "y": {
+                    "direction": "O"
+                  }
+                }
+              },
+              "mux21_0": {
+                "vlnv": "xilinx.com:module_ref:mux21:1.0",
+                "ip_revision": "1720791671",
+                "xci_name": "design_2_mux21_0_0",
+                "xci_path": "ip\\design_2_mux21_0_0\\design_2_mux21_0_0.xci",
+                "inst_hier_path": "hier_0/MUX8_1/mux21_0",
+                "reference_info": {
+                  "ref_type": "hdl",
+                  "ref_name": "mux21",
+                  "boundary_crc": "0x0"
+                },
+                "ports": {
+                  "a": {
+                    "direction": "I"
+                  },
+                  "b": {
+                    "direction": "I"
+                  },
+                  "s": {
+                    "direction": "I"
+                  },
+                  "y": {
+                    "direction": "O"
+                  }
+                }
+              }
+            },
+            "nets": {
+              "I0_1": {
+                "ports": [
+                  "I0",
+                  "mux41_1/d"
+                ]
+              },
+              "I1_1": {
+                "ports": [
+                  "I1",
+                  "mux41_1/c"
+                ]
+              },
+              "I2_1": {
+                "ports": [
+                  "I2",
+                  "mux41_1/b"
+                ]
+              },
+              "I3_1": {
+                "ports": [
+                  "I3",
+                  "mux41_1/a"
+                ]
+              },
+              "I4_1": {
+                "ports": [
+                  "I4",
+                  "mux41_0/d"
+                ]
+              },
+              "I5_1": {
+                "ports": [
+                  "I5",
+                  "mux41_0/c"
+                ]
+              },
+              "I6_1": {
+                "ports": [
+                  "I6",
+                  "mux41_0/b"
+                ]
+              },
+              "I7_1": {
+                "ports": [
+                  "I7",
+                  "mux41_0/a"
+                ]
+              },
+              "S0_1": {
+                "ports": [
+                  "S0",
+                  "mux41_1/s",
+                  "mux41_0/s"
+                ]
+              },
+              "S1_1": {
+                "ports": [
+                  "S1",
+                  "mux21_0/s"
+                ]
+              },
+              "mux21_0_y": {
+                "ports": [
+                  "mux21_0/y",
+                  "Y"
+                ]
+              },
+              "mux41_0_y": {
+                "ports": [
+                  "mux41_0/y",
+                  "mux21_0/a"
+                ]
+              },
+              "mux41_1_y": {
+                "ports": [
+                  "mux41_1/y",
+                  "mux21_0/b"
+                ]
+              }
+            }
+          }
+        },
+        "nets": {
+          "I0_1": {
+            "ports": [
+              "I0",
+              "MUX8_1/I0"
+            ]
+          },
+          "I1_1": {
+            "ports": [
+              "I1",
+              "MUX8_1/I1"
+            ]
+          },
+          "I2_1": {
+            "ports": [
+              "I2",
+              "MUX8_1/I2"
+            ]
+          },
+          "I3_1": {
+            "ports": [
+              "I3",
+              "MUX8_1/I3"
+            ]
+          },
+          "I4_1": {
+            "ports": [
+              "I4",
+              "MUX8_1/I4"
+            ]
+          },
+          "I5_1": {
+            "ports": [
+              "I5",
+              "MUX8_1/I5"
+            ]
+          },
+          "I6_1": {
+            "ports": [
+              "I6",
+              "MUX8_1/I6"
+            ]
+          },
+          "I7_1": {
+            "ports": [
+              "I7",
+              "MUX8_1/I7"
+            ]
+          },
+          "S0_1": {
+            "ports": [
+              "S0",
+              "MUX8_1/S0"
+            ]
+          },
+          "S1_1": {
+            "ports": [
+              "S1",
+              "MUX8_1/S1"
+            ]
+          },
+          "mux21_0_y": {
+            "ports": [
+              "MUX8_1/Y",
+              "Y"
+            ]
+          }
+        }
+      }
+    },
+    "nets": {
+      "I0_1": {
+        "ports": [
+          "I0",
+          "hier_0/I0"
+        ]
+      },
+      "I1_1": {
+        "ports": [
+          "I1",
+          "hier_0/I1"
+        ]
+      },
+      "I2_1": {
+        "ports": [
+          "I2",
+          "hier_0/I2"
+        ]
+      },
+      "I3_1": {
+        "ports": [
+          "I3",
+          "hier_0/I3"
+        ]
+      },
+      "I4_1": {
+        "ports": [
+          "I4",
+          "hier_0/I4"
+        ]
+      },
+      "I5_1": {
+        "ports": [
+          "I5",
+          "hier_0/I5"
+        ]
+      },
+      "I6_1": {
+        "ports": [
+          "I6",
+          "hier_0/I6"
+        ]
+      },
+      "I7_1": {
+        "ports": [
+          "I7",
+          "hier_0/I7"
+        ]
+      },
+      "S0_1": {
+        "ports": [
+          "S0",
+          "hier_0/S0"
+        ]
+      },
+      "S1_1": {
+        "ports": [
+          "S1",
+          "hier_0/S1"
+        ]
+      },
+      "mux21_0_y": {
+        "ports": [
+          "hier_0/Y",
+          "Y"
+        ]
+      }
+    }
+  }
+}
