@@ -1,0 +1,44 @@
+Vivado Simulator v2023.2.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: E:/XLINIX/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot ripple_carry_adder_tb_behav xil_defaultlib.ripple_carry_adder_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-2861] module 'top' does not have a parameter named SIZE [E:/XLINIX/viv_projects/project_10/project_10.srcs/sim_1/new/tb.v:15]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 35. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 15. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 1. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 1. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 15. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 1. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 1. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 15. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 1. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 1. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 15. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 1. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 1. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 35. Module top doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 15. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 1. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 1. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 15. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 1. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 1. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 15. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 1. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 1. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 15. Module fa doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 1. Module ha doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "E:/XLINIX/viv_projects/project_10/project_10.srcs/sources_1/new/top.v" Line 1. Module ha doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.ha
+Compiling module xil_defaultlib.fa
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.ripple_carry_adder_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot ripple_carry_adder_tb_behav

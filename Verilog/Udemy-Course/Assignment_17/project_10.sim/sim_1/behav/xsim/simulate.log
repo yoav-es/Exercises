@@ -1,0 +1,13 @@
+Time resolution is 1 ps
+Testing 4-bit Ripple Carry Adder
+A =  0, B =  0, Cin = 0, Sum =  0, Cout = 0
+A =  5, B = 10, Cin = 0, Sum = 15, Cout = 0
+A = 15, B =  5, Cin = 0, Sum =  4, Cout = 1
+A = 11, B =  3, Cin = 0, Sum = 14, Cout = 0
+A = 12, B =  3, Cin = 0, Sum = 15, Cout = 0
+A = 14, B =  8, Cin = 0, Sum =  6, Cout = 1
+A =  7, B =  4, Cin = 0, Sum = 11, Cout = 0
+A = 15, B =  8, Cin = 0, Sum =  7, Cout = 1
+A =  1, B =  7, Cin = 0, Sum =  8, Cout = 0
+A =  8, B =  4, Cin = 1, Sum = 13, Cout = 0
+$finish called at time : 100 ns : File "E:/XLINIX/viv_projects/project_10/project_10.srcs/sim_1/new/tb.v" Line 69
